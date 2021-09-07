@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    
+    background-color:white;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul>li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px;
+}
+img{
+    width: 200px;
+    margin-left: 10px;
+}
+section{
+    height:590px;
+    display: flex;
+    justify-content: center;
+      
+}
+.bottom-box{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(247, 207, 247);
+}
+.bottom-box > .imageBox{
+    position: relative;
+    bottom: 56px;
+    right: 180px;
+    margin: 0px;
+    width: 40px;
+    height: 20px;
+    margin-right: 25px;
+}
+.imageBox{
+    filter:  drop-shadow(0px 5px 5px black);
+}
+.text-box{
+    margin: 20px 0px 20px 25px;
+    color: rgb(105, 103, 105);
+}
+.text-box>h2{
+    color: rgb(231, 55, 55);
+}
+.text-box>p,a{
+    font-size: small;
+}
+section>img{
+    width: 100% ;
+    margin-left: 0px;
+
+} 
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(231, 55, 55);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.categoryBox{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+
+
+}
+.categoryBox>img{
+    width: 70px;
+    margin:auto 30px;
+} 
+.categoryBox>h2{
+    width: fit-content;
+    margin:auto 20px;
+    margin-top: 20px;
+
+} 
+a{
+    color: rgb(231, 55, 55);
+}
